@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+message Foo {
+    google.protobuf.Empty id = 1;
+   string name = 2;
+}
+
+service PubSub {
+    rpc ListenSystemEvents(google.protobuf.Empty) returns (google.protobuf.Empty);
+}

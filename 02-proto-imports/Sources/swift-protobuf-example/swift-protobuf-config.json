@@ -1,0 +1,12 @@
+{
+    "protoCPath": "/opt/homebrew/bin/protoc",
+    "invocations": [
+        {
+            "protoFiles": [
+                "Foo.proto",
+                "Bar/Bar.proto"
+            ],
+            "visibility": "public"
+        }
+    ]
+}

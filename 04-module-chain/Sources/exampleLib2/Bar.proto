@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "exampleLib1/Foo.proto";
+
+message Bar {
+   Foo foo = 2;
+}
